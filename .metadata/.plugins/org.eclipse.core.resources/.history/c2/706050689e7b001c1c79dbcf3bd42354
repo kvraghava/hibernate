@@ -1,0 +1,14 @@
+package thread2;
+
+public class MyThread implements Runnable {
+	
+	Display d;
+	String name;
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		d.wish(name);
+	}
+
+}
