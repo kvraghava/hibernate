@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LoadData.java&apos; to &apos;hibernateAnno3/src/main/java/com.raghava.hibernate&apos;&#x0D;&#x0A;- Original project: &apos;hibernateAnno2&apos;&#x0D;&#x0A;- Destination element: &apos;hibernateAnno3/src/main/java/com.raghava.hibernate&apos;&#x0D;&#x0A;- Original element: &apos;com.raghava.hibernate.LoadData.java&apos;" description="Copy compilation unit" destination="=hibernateAnno3/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.raghava.hibernate" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.raghava.hibernate{LoadData.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1633001226744" units="1" version="1.0"/>
+</session>

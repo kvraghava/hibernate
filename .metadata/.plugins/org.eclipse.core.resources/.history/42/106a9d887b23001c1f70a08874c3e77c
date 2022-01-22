@@ -1,0 +1,19 @@
+package com.raghava.hibernate;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="4wheeler")
+public class FourWheeler extends Vehical{
+	
+	private String steeringWheel;
+
+	public String getSteeringWheel() {
+		return steeringWheel;
+	}
+
+	public void setSteeringWheel(String steeringWheel) {
+		this.steeringWheel = steeringWheel;
+	}
+}

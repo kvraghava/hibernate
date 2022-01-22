@@ -1,0 +1,40 @@
+!SESSION 2022-01-22 17:09:57.322 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=11.0.13
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\kvraghava\java\hibernate\.metadata\.bak_0.log
+Created Time: 2022-01-22 17:10:06.228
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-22 17:10:06.229
+!MESSAGE buffering callback sts4.classpath.ijiDheTc hibernateAnno_sessionCache false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-22 17:10:06.232
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-22 17:10:06.234
+!MESSAGE classpath=25 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-22 17:10:06.235
+!MESSAGE buffering callback sts4.classpath.ijiDheTc hibernateFullAnno false 24
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-22 17:10:06.236
+!MESSAGE executing callback sts4.classpath.ijiDheTc 15 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-22 17:10:06.652
+!MESSAGE executing callback sts4.classpath.ijiDheTc SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-01-22 17:10:18.382
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
