@@ -1,0 +1,5 @@
+package thread4;
+
+public class ChildThread2 {
+
+}

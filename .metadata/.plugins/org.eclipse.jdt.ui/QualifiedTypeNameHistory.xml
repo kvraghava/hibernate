@@ -34,4 +34,17 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.lang.ThreadGroup"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
+    <fullyQualifiedTypeName name="thread2.Display"/>
+    <fullyQualifiedTypeName name="thread2.ReentrantLock2"/>
+    <fullyQualifiedTypeName name="thread2.MyThread2"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Source.Feature"/>
+    <fullyQualifiedTypeName name="thread4.CustomerThread"/>
+    <fullyQualifiedTypeName name="java.lang.ThreadLocal"/>
+    <fullyQualifiedTypeName name="java.lang.InheritableThreadLocal"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="thread4.ParentThread"/>
 </qualifiedTypeNameHistroy>

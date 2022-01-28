@@ -1,0 +1,17 @@
+package thread3;
+
+public class PrintJob implements Runnable{
+	
+	private String name;
+	
+	PrintJob(String name){
+		this.name = name;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

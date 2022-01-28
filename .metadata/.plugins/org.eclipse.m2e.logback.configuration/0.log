@@ -3292,3 +3292,6 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.oracle:oj
 2022-01-22 17:12:45,413 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\kvraghava\java\hibernate\hibernateFullAnno\src\main\resources
 2022-01-22 17:12:45,413 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-01-22 17:12:45,414 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\kvraghava\java\hibernate\hibernateFullAnno\src\test\resources
+2022-01-22 21:33:40,522 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-23 06:12:08,826 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-01-24 07:31:29,505 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
