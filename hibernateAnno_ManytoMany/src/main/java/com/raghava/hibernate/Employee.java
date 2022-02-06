@@ -12,7 +12,7 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;  
 
 @Entity
-@Table(name="emphiber15")
+@Table(name="emphiberm_m")
 public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -23,7 +23,7 @@ public class Employee {
 	private int sal;
 	
 	@ManyToMany
-	@JoinTable(name="emp_vehi15", joinColumns = @JoinColumn(name="emp_id"), inverseJoinColumns=@JoinColumn(name="v_id"))
+	@JoinTable(name="emp_vehim_m", joinColumns = @JoinColumn(name="emp_id"), inverseJoinColumns=@JoinColumn(name="v_id"))
 	private List<Vehicle> vehicle;
 
 	public int getId() {

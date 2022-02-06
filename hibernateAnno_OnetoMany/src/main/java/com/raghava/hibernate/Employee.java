@@ -9,21 +9,22 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.OneToMany;
-import javax.persistence.Table;  
+import javax.persistence.Table;
 
 @Entity
-@Table(name="emphiber61")
+@Table(name = "emphiber1_m")
 public class Employee {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
-	
+
 	private String name;
-	
+
 	private int sal;
-	
+
 	@OneToMany
-	@JoinTable(name="emp_vehi41", joinColumns = @JoinColumn(name="emp_id"), inverseJoinColumns = @JoinColumn(name="v_id"))
+	@JoinTable(name = "emp_vehi1_m", joinColumns = @JoinColumn(name = "emp_id"), 
+				inverseJoinColumns = @JoinColumn(name = "v_id"))
 	private List<Vehicle> vehicle;
 
 	public int getId() {

@@ -1,9 +1,0 @@
-package thread3;
-
-public class CallableFeatureDemo {
-
-	public static void main(String[] args) {
-		MyCallable[] jobs = {new MyCallable(10), new MyCallable(20), new MyCallable(30), new MyCallable(40),new MyCallable(50)};
-	}
-
-}
